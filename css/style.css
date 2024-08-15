@@ -1,1 +1,109 @@
 /* Ini css */
+
+form {
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+form input.submit,
+form input.reset {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #bfccd1;
+}
+
+form input.submit,
+section button {
+    background-color: #79ceed;
+    color: #fff;
+    border: 1px solid #bfccd1;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+form div.container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+form div.container p {
+    margin: 0;
+    display: none;
+    color: red;
+}
+
+form label.usia,
+form label.berat,
+form label.tinggi {
+    display: none;
+    color: red;
+}
+
+article ol {
+    padding-left: 15px;
+}
+
+/* Overlay gelap yang menutupi seluruh layar */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Layar utama menjadi gelap */
+    z-index: 500; /* Pastikan overlay berada di bawah section#result */
+    display: none; /* Akan diubah menjadi block saat ditampilkan oleh JS */
+}
+
+/* Modal untuk section#result berada di tengah */
+section#result {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Memposisikan kotak ke tengah layar */
+    width: 60%; /* Lebar kotak modal */
+    background-color: white; /* Background putih */
+    padding: 20px;
+    z-index: 1000; /* Pastikan section#result berada di atas overlay */
+    display: none; /* Default hidden */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+    border-radius: 8px; /* Membuat sudut kotak melengkung */
+}
+
+/* Efek untuk konten modal */
+section#result h1,
+section#result h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#result button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #79ceed;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section#result button:hover {
+    background-color: #5aacc6;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer div {
+    flex-direction: row;
+}
+
+footer div img {
+    height: 6vh;
+    width: 20vh;
+}
