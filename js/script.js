@@ -106,7 +106,7 @@ window.addEventListener('load', function () {
                 'Anda berada dalam kategori obesitas. Sangat dianjurkan untuk berkonsultasi dengan ahli gizi atau dokter untuk program penurunan berat badan yang tepat.<br />Jika BMI Anda berada dalam kategori ini, maka Anda sangat dianjurkan untuk menurunkan berat badan hingga batas normal.';
             healthRisks = `
                 <h5>Beberapa penyakit yang berasal dari kegemukan</h5>
-                <p>Diabetes</p>
+                <p>Diabetes</p>g
                 <p>Hipertensi</p>
                 <p>Sakit Jantung</p>
                 <p>Osteoarthritis</p>`;
